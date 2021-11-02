@@ -167,12 +167,14 @@ nav {
   display: block;
   padding: 0.5rem 1rem;
   transition: var(--transition);
+
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  /* background: var(--clr-primary--0); */
+  color: var(--clr-primary--0);
   padding-left: 1.5rem;
   text-decoration: none;
+  background: none;
 }
 .social-icons {
   display: none;
